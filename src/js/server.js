@@ -1,9 +1,9 @@
-const express = require("express");
+import express from "express";
+const { static: serveStatic } = express;
 const app = express();
 const port = process.env.PORT || 8080; // Utiliza el puerto de Railway o el puerto 8080 por defecto
 
-// Middleware para servir archivos estáticos (por ejemplo, HTML, CSS, JS)
-app.use(express.static("public"));
+app.use(serveStatic("public"));
 
 // Ruta de ejemplo
 app.get("/", (req, res) => {
