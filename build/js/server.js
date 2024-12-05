@@ -1,1 +1,1 @@
-const express=require("express"),app=express(),port=process.env.PORT||8080;app.use(express.static("public")),app.get("/",((e,s)=>{s.send("¡Hola desde Node.js!")})),app.listen(port,(()=>{console.log(`Servidor escuchando en el puerto ${port}`)}));
+const express=require("express"),app=express(),port=process.env.PORT||8080;app.use(express.static("public")),app.get("/",((e,p)=>{p.send("index.html")})),app.listen(port,(()=>{console.log(`Servidor escuchando en el puerto ${port}`)}));

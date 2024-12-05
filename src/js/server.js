@@ -7,7 +7,7 @@ app.use(express.static("public"));
 
 // Ruta de ejemplo
 app.get("/", (req, res) => {
-  res.send("¡Hola desde Node.js!");
+  res.send("index.html");
 });
 
 // Escucha en el puerto definido por Railway o en el 8080 por defecto
