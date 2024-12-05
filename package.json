@@ -4,7 +4,7 @@
 
   "scripts": {
 
-    "start": "node build/js/app.js",
+    "start": "node build/js/server.js",
 
     "test": "echo \"Error: no test specified\" && exit 1",
 
@@ -43,6 +43,14 @@
     "gulp-terser": "^2.1.0",
 
     "sass": "^1.80.6"
+
+  },
+
+  "dependencies": {
+
+    "dotenv": "^16.4.7",
+
+    "express": "^4.21.1"
 
   }
 
