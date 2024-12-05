@@ -163,7 +163,7 @@
     }
 
     input {
-      width: 90%;
+      width: 100%;
       padding: 1rem;
       border: 0.1rem solid v.$gris-cemento;
       border-radius: 1rem;
@@ -205,11 +205,12 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 1.5rem;
+      max-width: 80%;
       margin-bottom: 1.5rem;
       margin-left: 10rem;
 
       select {
-        width: 90%;
+        width: 100%;
         padding: 1rem;
         border: 1px solid v.$gris-cemento;
         border-radius: 5px;
