@@ -13,52 +13,52 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let errores = [];
   // Si hay errores, los mostramos
-  // boton.addEventListener("click", (e) => {
-  //   e.preventDefault();
-  //   errores = [];
-  //   aviso.classList.remove("error");
-  //   aviso.classList.remove("exito");
-  //   aviso.innerHTML = "";
+  boton.addEventListener("click", (e) => {
+    e.preventDefault();
+    errores = [];
+    aviso.classList.remove("error");
+    aviso.classList.remove("exito");
+    aviso.innerHTML = "";
 
-  //   // Verificamos que no existan errores
-  //   if (!nombre.value) {
-  //     errores.push("El nombre es obligatorio");
-  //   }
-  //   if (!email.value) {
-  //     errores.push("El email es obligatorio");
-  //   }
-  //   if (!telefono.value) {
-  //     errores.push("El telefono es obligatorio");
-  //   }
-  //   if (!fecha.value) {
-  //     errores.push("La fecha es obligatoria");
-  //   }
-  //   if (!hora.value) {
-  //     errores.push("La hora es obligatoria");
-  //   }
-  //   if (!personas.value) {
-  //     errores.push("El numero de personas es obligatorio");
-  //   }
+    // Verificamos que no existan errores
+    if (!nombre.value) {
+      errores.push("El nombre es obligatorio");
+    }
+    if (!email.value) {
+      errores.push("El email es obligatorio");
+    }
+    if (!telefono.value) {
+      errores.push("El telefono es obligatorio");
+    }
+    if (!fecha.value) {
+      errores.push("La fecha es obligatoria");
+    }
+    if (!hora.value) {
+      errores.push("La hora es obligatoria");
+    }
+    if (!personas.value) {
+      errores.push("El numero de personas es obligatorio");
+    }
 
-  //   if (errores.length > 0) {
-  //     errores.forEach((error) => {
-  //       aviso.classList.add("error");
-  //       aviso.innerHTML += `<p>${error}</p> <br>`;
-  //     });
+    if (errores.length > 0) {
+      errores.forEach((error) => {
+        aviso.classList.add("error");
+        aviso.innerHTML += `<p>${error}</p> <br>`;
+      });
 
-  //     window.scrollTo({
-  //       top: topForm.offsetTop,
-  //       behavior: "smooth",
-  //     });
-  //   } else {
-  //     aviso.classList.add("exito");
-  //     aviso.innerHTML += "<p>Reserva realizada con exito</p>";
-  //     window.scrollTo({
-  //       top: topForm.offsetTop,
-  //       behavior: "smooth",
-  //     });
-  //   }
-  // });
+      window.scrollTo({
+        top: topForm.offsetTop,
+        behavior: "smooth",
+      });
+    } else {
+      aviso.classList.add("exito");
+      aviso.innerHTML += "<p>Reserva realizada con exito</p>";
+      window.scrollTo({
+        top: topForm.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  });
 
   btnDelete.addEventListener("click", (e) => {
     e.preventDefault(); // Evita cualquier acción predeterminada del botón
