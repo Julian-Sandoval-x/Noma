@@ -7,7 +7,7 @@ app.use(serveStatic("public"));
 
 // Ruta de ejemplo
 app.get("/", (req, res) => {
-  res.send("index.html");
+  res.redirect("build/index.html");
 });
 
 // Escucha en el puerto definido por Railway o en el 8080 por defecto
