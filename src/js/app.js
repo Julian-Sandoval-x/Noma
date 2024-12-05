@@ -12,29 +12,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let errores = [];
   // Si hay errores, los mostramos
-  boton.addEventListener("click", (e) => {
-    e.preventDefault();
-    errores = [];
+  // boton.addEventListener("click", (e) => {
+  //   e.preventDefault();
+  //   errores = [];
 
-    // Verificamos que no existan errores
-    if (!nombre.value) {
-      errores.push("El nombre es obligatorio");
-    }
-    if (!email.value) {
-      errores.push("El email es obligatorio");
-    }
-    if (!telefono.value) {
-      errores.push("El telefono es obligatorio");
-    }
-    if (!fecha.value) {
-      errores.push("La fecha es obligatoria");
-    }
-    if (!hora.value) {
-      errores.push("La hora es obligatoria");
-    }
-    if (!personas.value) {
-      errores.push("El numero de personas es obligatorio");
-    }
+  //   // Verificamos que no existan errores
+  //   if (!nombre.value) {
+  //     errores.push("El nombre es obligatorio");
+  //   }
+  //   if (!email.value) {
+  //     errores.push("El email es obligatorio");
+  //   }
+  //   if (!telefono.value) {
+  //     errores.push("El telefono es obligatorio");
+  //   }
+  //   if (!fecha.value) {
+  //     errores.push("La fecha es obligatoria");
+  //   }
+  //   if (!hora.value) {
+  //     errores.push("La hora es obligatoria");
+  //   }
+  //   if (!personas.value) {
+  //     errores.push("El numero de personas es obligatorio");
+  //   }
 
     // if (errores.length > 0) {
     //   errores.forEach((error) => {
