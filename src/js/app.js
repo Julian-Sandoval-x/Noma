@@ -36,25 +36,24 @@ document.addEventListener("DOMContentLoaded", () => {
   //     errores.push("El numero de personas es obligatorio");
   //   }
 
-    // if (errores.length > 0) {
-    //   errores.forEach((error) => {
-    //     aviso.classList.add("error");
-    //     aviso.innerHTML += `<p>${error}</p> <br>`;
-    //   });
+  // if (errores.length > 0) {
+  //   errores.forEach((error) => {
+  //     aviso.classList.add("error");
+  //     aviso.innerHTML += `<p>${error}</p> <br>`;
+  //   });
 
-    //   window.scrollTo({
-    //     top: topForm.offsetTop,
-    //     behavior: "smooth",
-    //   });
-    // } else {
-    //   aviso.classList.add("exito");
-    //   aviso.innerHTML += "<p>Reserva realizada con exito</p>";
-    //   window.scrollTo({
-    //     top: topForm.offsetTop,
-    //     behavior: "smooth",
-    //   });
-    // }
-  });
+  //   window.scrollTo({
+  //     top: topForm.offsetTop,
+  //     behavior: "smooth",
+  //   });
+  // } else {
+  //   aviso.classList.add("exito");
+  //   aviso.innerHTML += "<p>Reserva realizada con exito</p>";
+  //   window.scrollTo({
+  //     top: topForm.offsetTop,
+  //     behavior: "smooth",
+  //   });
+  // }
 
   btnDelete.addEventListener("click", (e) => {
     e.preventDefault(); // Evita cualquier acción predeterminada del botón
