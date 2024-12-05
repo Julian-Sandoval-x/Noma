@@ -4,8 +4,6 @@
 
   "scripts": {
 
-    "start": "node build/js/server.js",
-
     "test": "echo \"Error: no test specified\" && exit 1",
 
     "sass": "sass --watch src/scss:build/css",
@@ -53,6 +51,8 @@
     "express": "^4.21.1",
 
     "path": "^0.12.7",
+
+    "php-cgi": "^0.2.0",
 
     "url": "^0.11.4"
 
